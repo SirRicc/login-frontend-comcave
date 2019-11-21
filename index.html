@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<!-- systrix -> seo tool -->
+
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Login</title>
+    <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./js/captcha.js"></script>
+    <script type="text/javascript" src="./js/form.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/captcha.css">
+    <link rel="shortcut icon" href="./css/assets/favicon.ico">
+    <!-- <link rel="php" href="./php/captcha.php"> -->
+
+  </head>
+
+  <body>
+
+    <div class="header">
+      <img src="./css/assets/logo_college.png" alt="logo_college">
+    </div>
+
+    <form class="card">
+      <input type="text" placeholder="Username" autofocus id="user">
+      <input type="password" placeholder="Password" id="password">
+      <img src="http://localhost/phpkurs/login-frontend-master/php/captcha.php" alt="captcha" id="img">
+      <input type="text" name="captcha" placeholder="Enter Captcha" id="captcha" maxlength="5">
+      <button type="submit" name="login" id="login">Login</button>
+    </form>
+
+  </body>
+</html>
